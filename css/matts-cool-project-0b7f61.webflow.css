@@ -884,6 +884,7 @@ p {
 }
 
 .paragraph {
+  margin-bottom: 40px;
   color: #1c5065;
   line-height: 34px;
 }
