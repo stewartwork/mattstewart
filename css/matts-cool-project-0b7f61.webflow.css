@@ -318,7 +318,7 @@ p {
 .a-tag.link-col-wh {
   padding-left: 0px;
   font-family: Karla, sans-serif;
-  color: #41bfd7;
+  color: #1c5065;
   font-size: 1.1rem;
   font-weight: 400;
   text-decoration: none;
@@ -332,6 +332,10 @@ p {
 
 .a-tag.link-col-wh.white {
   color: #fff;
+}
+
+.a-tag.link-col-wh.new {
+  color: #1c5065;
 }
 
 .p-tag {
@@ -506,6 +510,10 @@ p {
   background-color: #f3f3f3;
 }
 
+.sect-flex-50.blue {
+  background-color: #8dd2da;
+}
+
 ._50-col {
   width: 50%;
   height: auto;
@@ -545,11 +553,15 @@ p {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
-  background-color: #8dd1db;
+  background-color: #fff;
 }
 
 .sect-hero.gray {
   background-color: #f3f3f3;
+}
+
+.sect-hero.blue {
+  background-color: #8dd2da;
 }
 
 .col-flex {
@@ -635,7 +647,7 @@ p {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  background-color: #fff;
+  background-color: transparent;
   text-align: center;
 }
 
@@ -673,12 +685,17 @@ p {
   width: 100%;
 }
 
+.image-79.round {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#1c5065), to(#1c5065));
+  background-image: linear-gradient(180deg, #1c5065, #1c5065);
+}
+
 ._3-col-flex {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 99px 100px;
+  padding: 169px 20px;
   border-bottom: 60px none #3a648f;
   background-color: transparent;
 }
@@ -707,6 +724,10 @@ p {
   font-size: 1.5rem;
   font-weight: 400;
   text-align: left;
+}
+
+.blue-h3.new {
+  color: #fff;
 }
 
 .utility-page-wrap {
@@ -823,7 +844,7 @@ p {
 }
 
 .image-84 {
-  width: 80%;
+  width: 100%;
   float: right;
 }
 
@@ -847,12 +868,15 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .heading-6 {
   margin-top: 0px;
   margin-bottom: 40px;
   color: #1c5065;
+  font-size: 50px;
 }
 
 .paragraph {
@@ -1124,6 +1148,19 @@ p {
   ._50-col-lr-mega-pad {
     width: 100%;
     padding: 100px;
+  }
+  .container-4 {
+    padding-top: 60px;
+    padding-left: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 }
 
@@ -1543,6 +1580,16 @@ p {
   }
   .heading-5 {
     font-size: 1.6875rem;
+  }
+  .container-4 {
+    padding-top: 40px;
+  }
+  .heading-6 {
+    font-size: 40px;
+  }
+  .paragraph {
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 
