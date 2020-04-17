@@ -537,7 +537,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 100px;
+  padding: 100px 100px 180px;
   border: 0px none #000;
   background-image: none;
 }
@@ -569,7 +569,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 100px;
+  padding: 180px 100px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -616,7 +616,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 0px;
+  padding: 80px 0px 0px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -695,7 +695,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 169px 20px;
+  padding: 180px 20px;
   border-bottom: 60px none #3a648f;
   background-color: transparent;
 }
