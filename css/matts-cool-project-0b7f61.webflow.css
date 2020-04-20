@@ -384,6 +384,7 @@ p {
 }
 
 .column-2 {
+  padding-left: 0px;
   line-height: 45px;
   text-align: left;
 }
@@ -448,7 +449,9 @@ p {
 }
 
 .socialike {
+  width: 26px;
   margin-left: 10px;
+  opacity: 0.29;
 }
 
 .image-5 {
@@ -1279,8 +1282,11 @@ p {
   .column {
     text-align: center;
   }
+  .column.hdr {
+    text-align: right;
+  }
   .column-2 {
-    text-align: center;
+    text-align: left;
   }
   .brand.w--current {
     padding-left: 0px;
@@ -1380,6 +1386,18 @@ p {
   }
   .image-83 {
     width: 100%;
+  }
+  .columns-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .columns-3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -1518,6 +1536,10 @@ p {
   ._2-col-grid-section {
     border-bottom-width: 10px;
   }
+  .column.hdr {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
   .footer2 {
     padding-right: 0px;
     padding-left: 0px;
@@ -1528,6 +1550,10 @@ p {
   }
   .image-3 {
     padding-bottom: 40px;
+  }
+  .socialike {
+    width: 20px;
+    margin-left: 5px;
   }
   .image-5 {
     width: 50%;
