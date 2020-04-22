@@ -909,6 +909,7 @@ p {
 
 .header2 {
   position: fixed;
+  z-index: 1000;
   width: 100%;
   margin-bottom: 0px;
   padding-top: 0px;
