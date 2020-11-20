@@ -1,0 +1,654 @@
+<!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Fri Nov 20 2020 13:12:53 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="5f636452be41221401af9e69" data-wf-site="5f636452be41226b6daf9e58">
+<head>
+  <meta charset="utf-8">
+  <title>News</title>
+  <meta content="News" property="og:title">
+  <meta content="News" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/aptean2.webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic","Oswald:200,300,400,500,600,700","Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]  }});</script>
+  <script src="https://use.typekit.net/qzp5vhq.js" type="text/javascript"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="images/webclip.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css">
+  <style>
+.w-container {max-width: 1170px;}
+  .dd-alert.w-dropdown-toggle .w-icon-dropdown-toggle {margin-right: 10px;}
+  .inner-block.right .w-dropdown {margin-left: 0;margin-right: 0;}
+/* According Arrow */
+.accordion__item > .accordion-header:after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 16px;
+  content: "\f077";
+  color: #000;
+  float: right;
+  position: relative;
+  display: block;
+  top: 2px;
+  transition: .3s all;
+  transform: rotate(-180deg);
+  opacity: 100;
+}
+.accordion__item.active > .accordion-header:after {
+  transform: rotate(0deg);
+}
+.accordion-body.js-accordion-body {
+	display: none;
+}
+</style>
+</head>
+<body class="body">
+  <div class="alert-banner">
+    <div class="left-banner">
+      <div class="inner-block">
+        <div class="alert-text">UPDATE: NASA TV for Broadcast America Example Banner Message</div>
+        <a href="#" class="button small alert-btn w-button">learn more</a>
+      </div>
+    </div>
+    <div class="right-banner">
+      <a href="#" class="small-menu-item cta">Login</a>
+      <form action="/search" class="search banner w-form">
+        <div class="serch-label">Search</div><input type="search" class="search-input w-input" maxlength="256" name="query" placeholder="" id="search" required=""><input type="submit" value="GO" class="search-button w-button">
+      </form>
+    </div>
+  </div>
+  <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
+    <div class="nav-wrapper">
+      <a href="index.html" class="brand w-nav-brand"><img src="images/logoDK.svg" alt="" class="logodark"><img src="images/logo.svg" alt="" class="logowhite"></a>
+      <nav role="navigation" class="nav-menu w-nav-menu">
+        <a href="#" target="_blank" class="main-nav-link-2 w-nav-link">Cloud Services</a>
+        <div data-hover="1" data-delay="0" class="dd-new w-dropdown">
+          <div class="main-nav-link w-dropdown-toggle">
+            <a href="#" class="ddlink w-inline-block"></a>
+            <div class="text-block-5">Solutions</div>
+            <div class="w-icon-dropdown-toggle"></div>
+          </div>
+          <nav class="main-dd-drop w-dropdown-list">
+            <a href="#" class="dd-link w-dropdown-link">TV Network</a>
+            <a href="#" class="dd-link w-dropdown-link">Radio</a>
+            <a href="#" class="dd-link w-dropdown-link">OTT</a>
+            <a href="#" class="dd-link w-dropdown-link">Live Events</a>
+            <a href="#" class="dd-link w-dropdown-link">Government</a>
+          </nav>
+        </div>
+        <div data-hover="1" data-delay="0" class="w-dropdown">
+          <div class="main-nav-link w-dropdown-toggle">
+            <a href="#" class="ddlink w-inline-block"></a>
+            <div class="text-block-6">About Us</div>
+            <div class="w-icon-dropdown-toggle"></div>
+          </div>
+          <nav class="main-dd-drop w-dropdown-list">
+            <a href="#" class="dd-link w-dropdown-link">Global Locations</a>
+            <a href="#" class="dd-link w-dropdown-link">Leadership</a>
+            <a href="#" class="dd-link w-dropdown-link">Careers</a>
+          </nav>
+        </div>
+        <a href="#" target="_blank" class="main-nav-link-2 w-nav-link">Resources</a>
+        <a href="#" target="_blank" class="main-nav-link-2 w-nav-link">Careers</a>
+        <a href="#" class="main-nav-link-3 btn-style w-nav-link">Contact us</a>
+      </nav>
+      <div class="menu-button w-nav-button">
+        <div class="icon-2 w-icon-nav-menu"></div>
+      </div>
+    </div>
+  </div>
+  <div class="sub-hero no-img">
+    <div class="block6 copy">
+      <h2 class="heroh2">You&#x27;re beginning an exciting and rewarding career; and NCCPA certification is an important step as you begin this journey.</h2>
+    </div>
+    <div class="block6">
+      <div style="padding-top:56.17021276595745%" class="video w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FFMYT_5hJckU%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DFMYT_5hJckU&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FFMYT_5hJckU%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe></div>
+    </div>
+  </div>
+  <div class="section-news">
+    <div data-duration-in="300" data-duration-out="100" class="tabs w-tabs">
+      <div class="tabs-menu w-tab-menu">
+        <a data-w-tab="Tab 1" class="tab-link-tab-1 w-inline-block w-tab-link w--current">
+          <div>News</div>
+        </a>
+        <a data-w-tab="Tab 2" class="tab-link-tab-2 w-inline-block w-tab-link">
+          <div>media room</div>
+        </a>
+        <a data-w-tab="Tab 3" class="tab-link-tab-3 w-inline-block w-tab-link">
+          <div>events</div>
+        </a>
+      </div>
+      <div class="w-tab-content">
+        <div data-w-tab="Tab 1" class="w-tab-pane w--tab-active">
+          <div class="filters">
+            <div data-hover="" data-delay="0" class="filter-dd w-dropdown">
+              <div class="filter-news w-dropdown-toggle">
+                <div class="w-icon-dropdown-toggle"></div>
+                <div>year</div>
+              </div>
+              <nav class="w-dropdown-list">
+                <a href="#" class="w-dropdown-link">Link 1</a>
+                <a href="#" class="w-dropdown-link">Link 2</a>
+                <a href="#" class="w-dropdown-link">Link 3</a>
+              </nav>
+            </div>
+            <div data-hover="" data-delay="0" class="filter-dd w-dropdown">
+              <div class="filter-news w-dropdown-toggle">
+                <div class="w-icon-dropdown-toggle"></div>
+                <div>month</div>
+              </div>
+              <nav class="w-dropdown-list">
+                <a href="#" class="w-dropdown-link">Link 1</a>
+                <a href="#" class="w-dropdown-link">Link 2</a>
+                <a href="#" class="w-dropdown-link">Link 3</a>
+              </nav>
+            </div>
+          </div>
+          <div class="w-layout-grid grid-3-col">
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">News Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="news-subs/article.html" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">News Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="news-subs/article.html" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/news3.png" srcset="images/news3-p-500.png 500w, images/news3.png 522w" sizes="(max-width: 479px) 81vw, (max-width: 767px) 82vw, (max-width: 991px) 84vw, (max-width: 1279px) 71vw, (max-width: 1439px) 72vw, (max-width: 1919px) 73vw, 69vw" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">News Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="news-subs/article.html" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/news3.png" srcset="images/news3-p-500.png 500w, images/news3.png 522w" sizes="(max-width: 479px) 81vw, (max-width: 767px) 82vw, (max-width: 991px) 84vw, (max-width: 1279px) 71vw, (max-width: 1439px) 72vw, (max-width: 1919px) 73vw, 69vw" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">News Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="news-subs/article.html" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/news2.png" srcset="images/news2-p-500.png 500w, images/news2.png 522w" sizes="(max-width: 479px) 81vw, (max-width: 767px) 82vw, (max-width: 991px) 84vw, (max-width: 1279px) 71vw, (max-width: 1439px) 72vw, (max-width: 1919px) 73vw, 69vw" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">News Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="news-subs/article.html" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/news2.png" srcset="images/news2-p-500.png 500w, images/news2.png 522w" sizes="(max-width: 479px) 81vw, (max-width: 767px) 82vw, (max-width: 991px) 84vw, (max-width: 1279px) 71vw, (max-width: 1439px) 72vw, (max-width: 1919px) 73vw, 69vw" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">News Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="news-subs/article.html" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">News Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="news-subs/article.html" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/news3.png" srcset="images/news3-p-500.png 500w, images/news3.png 522w" sizes="(max-width: 479px) 81vw, (max-width: 767px) 82vw, (max-width: 991px) 84vw, (max-width: 1279px) 71vw, (max-width: 1439px) 72vw, (max-width: 1919px) 73vw, 69vw" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">News Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="news-subs/article.html" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">News Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="news-subs/article.html" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">News Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="news-subs/article.html" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">News Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="news-subs/article.html" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">News Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="news-subs/article.html" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/news3.png" srcset="images/news3-p-500.png 500w, images/news3.png 522w" sizes="(max-width: 479px) 81vw, (max-width: 767px) 82vw, (max-width: 991px) 84vw, (max-width: 1279px) 71vw, (max-width: 1439px) 72vw, (max-width: 1919px) 73vw, 69vw" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">News Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="news-subs/article.html" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/news3.png" srcset="images/news3-p-500.png 500w, images/news3.png 522w" sizes="(max-width: 479px) 81vw, (max-width: 767px) 82vw, (max-width: 991px) 84vw, (max-width: 1279px) 71vw, (max-width: 1439px) 72vw, (max-width: 1919px) 73vw, 69vw" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">News Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="news-subs/article.html" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/news3.png" srcset="images/news3-p-500.png 500w, images/news3.png 522w" sizes="(max-width: 479px) 81vw, (max-width: 767px) 82vw, (max-width: 991px) 84vw, (max-width: 1279px) 71vw, (max-width: 1439px) 72vw, (max-width: 1919px) 73vw, 69vw" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">News Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="news-subs/article.html" class="link">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-w-tab="Tab 2" class="w-tab-pane">
+          <div class="filters">
+            <div data-hover="" data-delay="0" class="filter-dd w-dropdown">
+              <div class="filter-news w-dropdown-toggle">
+                <div class="w-icon-dropdown-toggle"></div>
+                <div>year</div>
+              </div>
+              <nav class="w-dropdown-list">
+                <a href="#" class="w-dropdown-link">Link 1</a>
+                <a href="#" class="w-dropdown-link">Link 2</a>
+                <a href="#" class="w-dropdown-link">Link 3</a>
+              </nav>
+            </div>
+            <div data-hover="" data-delay="0" class="filter-dd w-dropdown">
+              <div class="filter-news w-dropdown-toggle">
+                <div class="w-icon-dropdown-toggle"></div>
+                <div>month</div>
+              </div>
+              <nav class="w-dropdown-list">
+                <a href="#" class="w-dropdown-link">Link 1</a>
+                <a href="#" class="w-dropdown-link">Link 2</a>
+                <a href="#" class="w-dropdown-link">Link 3</a>
+              </nav>
+            </div>
+          </div>
+          <div class="w-layout-grid grid-3-col">
+            <div class="block2"><img src="images/news2.png" srcset="images/news2-p-500.png 500w, images/news2.png 522w" sizes="(max-width: 479px) 81vw, (max-width: 767px) 82vw, (max-width: 991px) 84vw, (max-width: 1279px) 71vw, (max-width: 1439px) 72vw, (max-width: 1919px) 73vw, 69vw" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Events Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Events Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/news3.png" srcset="images/news3-p-500.png 500w, images/news3.png 522w" sizes="(max-width: 479px) 81vw, (max-width: 767px) 82vw, (max-width: 991px) 84vw, (max-width: 1279px) 71vw, (max-width: 1439px) 72vw, (max-width: 1919px) 73vw, 69vw" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Events Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/news3.png" srcset="images/news3-p-500.png 500w, images/news3.png 522w" sizes="(max-width: 479px) 81vw, (max-width: 767px) 82vw, (max-width: 991px) 84vw, (max-width: 1279px) 71vw, (max-width: 1439px) 72vw, (max-width: 1919px) 73vw, 69vw" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Events Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/news2.png" srcset="images/news2-p-500.png 500w, images/news2.png 522w" sizes="(max-width: 479px) 81vw, (max-width: 767px) 82vw, (max-width: 991px) 84vw, (max-width: 1279px) 71vw, (max-width: 1439px) 72vw, (max-width: 1919px) 73vw, 69vw" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Events Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Events Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Events Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Events Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Events Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Events Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Events Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Events Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Events Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Events Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Events Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="filters">
+              <div data-hover="" data-delay="0" class="filter-dd w-dropdown">
+                <div class="filter-news w-dropdown-toggle">
+                  <div class="w-icon-dropdown-toggle"></div>
+                  <div>year</div>
+                </div>
+                <nav class="w-dropdown-list">
+                  <a href="#" class="w-dropdown-link">Link 1</a>
+                  <a href="#" class="w-dropdown-link">Link 2</a>
+                  <a href="#" class="w-dropdown-link">Link 3</a>
+                </nav>
+              </div>
+              <div data-hover="" data-delay="0" class="filter-dd w-dropdown">
+                <div class="filter-news w-dropdown-toggle">
+                  <div class="w-icon-dropdown-toggle"></div>
+                  <div>month</div>
+                </div>
+                <nav class="w-dropdown-list">
+                  <a href="#" class="w-dropdown-link">Link 1</a>
+                  <a href="#" class="w-dropdown-link">Link 2</a>
+                  <a href="#" class="w-dropdown-link">Link 3</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data-w-tab="Tab 3" class="w-tab-pane">
+          <div class="filters">
+            <div data-hover="" data-delay="0" class="filter-dd w-dropdown">
+              <div class="filter-news w-dropdown-toggle">
+                <div class="w-icon-dropdown-toggle"></div>
+                <div>year</div>
+              </div>
+              <nav class="w-dropdown-list">
+                <a href="#" class="w-dropdown-link">Link 1</a>
+                <a href="#" class="w-dropdown-link">Link 2</a>
+                <a href="#" class="w-dropdown-link">Link 3</a>
+              </nav>
+            </div>
+            <div data-hover="" data-delay="0" class="filter-dd w-dropdown">
+              <div class="filter-news w-dropdown-toggle">
+                <div class="w-icon-dropdown-toggle"></div>
+                <div>month</div>
+              </div>
+              <nav class="w-dropdown-list">
+                <a href="#" class="w-dropdown-link">Link 1</a>
+                <a href="#" class="w-dropdown-link">Link 2</a>
+                <a href="#" class="w-dropdown-link">Link 3</a>
+              </nav>
+            </div>
+          </div>
+          <div class="w-layout-grid grid-3-col">
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Reports Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Reports Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Reports Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Reports Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Reports Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Reports Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Reports Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Reports Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Reports Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Reports Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Reports Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Reports Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Reports Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Reports Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+            <div class="block2"><img src="images/default-img.svg" alt="" class="block-grid3">
+              <div class="block3copy">
+                <h3 class="news-h3">Reports Title Example Title Test Two Lines Longer...</h3>
+                <p class="paragraph-2"><strong>09.10.20 </strong>• Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique...</p>
+                <a href="#" class="link">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="contact-bg news">
+    <h1 data-w-id="8321eec4-89f0-6c5c-e710-2faa80f4f2d8" style="opacity:0" class="hero-h1 center">Contact Us Today</h1>
+    <div class="formwrapper">
+      <div class="w-form">
+        <form id="email-form" name="email-form" data-name="Email Form" class="form contact">
+          <div class="form-block full"><label for="name" class="form-label">Name</label><input type="text" class="w-input" maxlength="256" name="name" data-name="Name" placeholder="" id="name"></div>
+          <div class="form-block"><label for="email" class="form-label">Email Address</label><input type="email" class="w-input" maxlength="256" name="email" data-name="Email" placeholder="" id="email" required=""></div>
+          <div id="w-node-2faa80f4f2e5-01af9e69" class="form-block full"><label for="email" class="form-label">Message</label><textarea placeholder="Example Text" maxlength="5000" id="field" name="field" data-name="Field" class="w-input"></textarea></div>
+          <div id="w-node-2faa80f4f2e9-01af9e69" class="form-block full"><label for="email" class="form-label">How Can We Help?</label><select id="field-3" name="field-3" class="w-select">
+              <option value="">Select one...</option>
+              <option value="First">First Choice</option>
+              <option value="Second">Second Choice</option>
+              <option value="Third">Third Choice</option>
+            </select></div><input type="submit" value="Submit" data-wait="Please wait..." id="w-node-2faa80f4f2ed-01af9e69" class="button form dark w-button">
+        </form>
+        <div class="w-form-done">
+          <div>Thank you! Your submission has been received!</div>
+        </div>
+        <div class="w-form-fail">
+          <div>Oops! Something went wrong while submitting the form.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="w-layout-grid grid-2">
+      <div class="foot-copy">
+        <h2 class="foot-h2">Company</h2>
+        <p class="footer-p long">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+      </div>
+      <div class="foot-copy">
+        <h2 class="foot-h2">About </h2>
+        <a href="#" class="footer-link">Who We Are</a>
+        <a href="#" class="footer-link">Our History</a>
+        <a href="#" class="footer-link">Leadership</a>
+        <a href="#" class="footer-link">Careers</a>
+        <a href="#" class="footer-link">Volunteer</a>
+      </div>
+      <div class="foot-copy">
+        <h2 class="foot-h2">Contact </h2>
+        <a href="#" class="button foot w-button">contact</a>
+        <a href="#" class="footer-link">P: 678.417.8100</a>
+        <a href="#" class="footer-link">F: 678.417.8135</a>
+        <a href="#" class="footer-link">info@aptean.com</a>
+        <h2 class="foot-h2 secrow">Stay in Touch</h2><img src="images/soc3.svg" alt="" class="soc-img"><img src="images/soc4.svg" alt="" class="soc-img"><img src="images/soc1.svg" alt="" class="soc-img"><img src="images/soc2.svg" alt="" class="soc-img">
+      </div>
+    </div>
+    <div class="div-block-2">
+      <a href="#" class="footer-link inline">Terms of Use</a>
+      <a href="#" class="footer-link inline">Privacy Policy</a>
+      <a href="#" class="footer-link inline">© 2020 Aptean All Rights Reserved.</a>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5f636452be41226b6daf9e58" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+  <script>
+var accordion = (function(){
+  var $accordion = $('.js-accordion');
+  var $accordion_header = $accordion.find('.js-accordion-header');
+  var $accordion_item = $('.js-accordion-item');
+  // default settings 
+  var settings = {
+    // animation speed
+    speed: 400,
+    // close all other accordion items if true
+    oneOpen: false,
+  };
+  return {
+    // pass configurable object literal
+    init: function($settings) {
+      $accordion_header.on('click', function() {
+        accordion.toggle($(this));
+      });
+      $.extend(settings, $settings); 
+      // ensure only one accordion is active if oneOpen is true
+      if(settings.oneOpen && $('.js-accordion-item.active').length > 1) {
+        $('.js-accordion-item.active:not(:first)').removeClass('active');
+      }
+      // reveal the active accordion bodies
+      $('.js-accordion-item.active').find('> .js-accordion-body').show();
+    },
+    toggle: function($this) {
+      if(settings.oneOpen && $this[0] != $this.closest('.js-accordion').find('> .js-accordion-item.active > .js-accordion-header')[0]) {
+        $this.closest('.js-accordion')
+               .find('> .js-accordion-item') 
+               .removeClass('active')
+               .find('.js-accordion-body')
+               .slideUp()
+      }
+      // show/hide the clicked accordion item
+      $this.closest('.js-accordion-item').toggleClass('active');
+      $this.next().stop().slideToggle(settings.speed);
+    }
+  }
+})();
+$(document).ready(function(){
+  accordion.init({ speed: 300, oneOpen: true });
+});
+</script>
+</body>
+</html>
